@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav-container">
+        <a href="index.html" class="logo">SAN<span>PORTO</span></a>
+       
+        <div class="nav-icons">
+          <div id="theme-btn" class="ri-moon-line"></div>
+         
+        </div>
+      </div>
+    </nav>
+    <section class="home" id="home">
+      <div class="container home-container">
+        <div class="left">
+          <h3>Hello, It's Me</h3>
+          <h1><span>Sandi</span></h1>
+          <!-- you can edit `multiple-text` into ( /assets/js/script.js ), then search and edit `strings` in TYPED Js  -->
+          <h3>And I'm a <span class="multiple-text"></span></h3>
+          <p>
+              As a recent graduate currently learning to become a front-end developer, I'm still fresh and eager to enhance my skills. Currently, I'm focusing on learning HTML, CSS, and JavaScript, and experimenting with frameworks like React or Vue. While learning, I'm also getting involved in small projects and participating in online communities. Hopefully, I can build a strong portfolio along the way. If there are internship opportunities or small projects, I'm ready to take them on. With hard work and a continuous learning spirit, I hope to become a skilled front-end developer!
+          </p>
+          <div class="social-icons-container">
+            <div class="social-icons">
+              <a href="https://www.instagram.com/"><i class="ri-instagram-line"></i></a>
+              <a href="https://github.com/sandikartiko"><i class="ri-github-line"></i></a>
+              <a href="www.linkedin.com/in/sandipriyokartiko"><i class="ri-linkedin-line"></i></a>
+            </div>
+          
+          </div>
+        </div>
+        <div class="right">
+          <!-- add your home or profile photo in src from assets/images/  -->
+          <img src="assets/images/1.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container about-container">
+        <div class="left">
+          <img src="assets/images/1.jpeg" alt="" />
+        </div>
+        <div class="right">
+          <div class="title">
+            <h2>About <span>Me</span></h2>
+          </div>
+          <h3>
+            I'm a Front-End Web Developer
+          </h3>
+          <p>
+            I am a graduate of the National Institute of Technology Malang, Faculty of Industrial Technology with a major in Computer Engineering. Throughout my studies at this institution, I gained in-depth knowledge in the field of technology and informatics. I possess expertise in programming and website development using various programming languages and the latest frameworks. Additionally, I have skills in analyzing and designing effective and efficient information systems. With good communication, strong teamwork capabilities, and readiness to contribute to challenging projects, I am well-prepared to make valuable contributions to any team or project.
+          </p>
+          <button class="btn overlay ">
+            <a href="https://drive.google.com/file/d/1GGza39qXsIZUDtUPSFF-IgNteKai0mrI/view?usp=sharing"><span style="color: #e78311 ;">Download CV</span></a>
+          </button>
+        
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="title">
+        <h2>My  <span>Skills</span></h2>
+      </div>
+      <div class="container services-container">
+        <div class="box overlay content-1">
+          <div class="content ">
+            <i class="ri-html5-fill"></i>
+            <h4>HTML</h4>
+           
+          </div>
+        </div>
+        <div class="box overlay content-1">
+          <div class="content ">
+            <i class="ri-css3-fill"></i>
+            <h4>CSS</h4>
+          </div>
+        </div>
+        <div class="box overlay content-1">
+          <div class="content ">
+            <i class="ri-javascript-fill"></i>
+            <h4>Javascript</h4>
+          </div>
+          </div>
+          <div class="box overlay content-2">
+            <div class="content ">
+              <i class="ri-bug-fill"></i>
+              <h4>React JS</h4>
+             
+            </div>
+          </div>
+          <div class="box overlay content-2">
+            <div class="content ">
+              <i class="ri-stack-fill"></i>
+              <h4>Tailwind</h4>
+             
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="title">
+            <h2>Latest <span>Project</span></h2>
+        </div>
+        <div class="container portfolio-container">
+            <div class="portfolio-buttons" >
+                <button class="btn portfolio-tab active" onclick="tabOpen('all')">
+                    All</button>
+                <button class="btn portfolio-tab " onclick="tabOpen('webdevelop')">
+                    Web Develop</button>
+            </div>
+            <div class="tab-content active-content" id="all">
+                <div class="image"><a href="https://github.com/sandikartiko/Project-Laravel-Pembuatan-Arsip-Digital-Kantor-Desa-Tunjungtirto.git"><img src="assets/images/arsip.png" alt="arsip" ></a></div>
+          
+                <div class="image"><a href="https://github.com/sandikartiko/Project-Skrips-Seleksi-Penerimaan-Siswa-Baru-SMP-Negeri1-Sumberpucung.git"><img src="assets/images/spk.png" alt=""></a></div>
+                <div class="image"><a href="https://twelscione.vercel.app/"><img src="assets/images/web.png" alt=""></a></div>
+               
+            </div>
+            <div class="tab-content" id="webdevelop">
+            </div>
+      
+        </div>
+    </section>
+   <section class="contact" id="contact">
+    <div class="title">
+        <h2>Contact <span>Me</span></h2>
+    </div>
+    <div class="contact-content">
+        <div class="row">
+          <div class="box">
+              <div class="box-icon">
+                  <i class="ri-home-line"></i>
+              </div>
+              <div class="box-info">
+                  <h4>Address</h4>
+                  <span>Malang, East Java - Indonesia</span>
+              </div>
+          </div>
+          <div class="box">
+              <div class="box-icon">
+                  <i class="ri-phone-line"></i>
+              </div>
+              <div class="box-info">
+                  <h4>Phone Number</h4>
+                  <span>+62124389882</span>
+              </div>
+          </div>
+          <div class="box">
+              <div class="box-icon">
+                  <i class="ri-mail-line"></i>
+              </div>
+              <div class="box-info">
+                  <h4>Email Address</h4>
+                  <span>sk712851.com</span>
+              </div>
+          </div>
+        </div>
+    </div>
+   </section>
+   <div class="copyright">
+    <p>Copyright &copy; 2024 by San| All right Reserved.</p>
+   </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
